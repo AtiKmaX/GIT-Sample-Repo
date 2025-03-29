@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice for Git</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light sky blue background */
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #87CEEB; /* Sky blue */
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #4682B4; /* Darker sky blue */
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content */
+        .container {
+            padding: 50px 20px;
+        }
+
+        .content-box {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            max-width: 600px;
+            text-align: left;
+        }
+
+        /* Button */
+        .btn {
+            background-color: #4682B4;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #5A9BD3;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #87CEEB;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Practice for Git</header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div class="content-box">
+            <h2>Welcome to Git Practice</h2>
+            <p>This is a simple webpage designed to practice Git and GitHub. It has a beautiful sky blue and white theme for an engaging experience.</p>
+            <button class="btn" onclick="showMessage()">Click Me</button>
+            <p id="message" style="font-weight: bold; color: #4682B4;"></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Practice for Git | Created with ❤️
+    </footer>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").innerText = "You clicked the button! Keep practicing Git!";
+        }
+    </script>
+
+</body>
+</html>
